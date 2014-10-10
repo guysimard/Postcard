@@ -104,6 +104,15 @@
                                     <action selector="sendMailButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="MTI-n9-2Cv"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nS8-vp-slA">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="136" width="192" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="lug-l6-QBV"/>
                                 <exclude reference="PKT-uj-Bfg"/>
                                 <exclude reference="a8j-VS-aOx"/>
+                                <exclude reference="nS8-vp-slA"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="lug-l6-QBV"/>
                                 <include reference="PKT-uj-Bfg"/>
                                 <include reference="a8j-VS-aOx"/>
+                                <include reference="nS8-vp-slA"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTexField" destination="hR9-K4-KqD" id="hmG-Mc-T2g"/>
                         <outlet property="mailButton" destination="a8j-VS-aOx" id="BNU-J1-WgV"/>
                         <outlet property="messageLabel" destination="PKT-uj-Bfg" id="hvx-pc-125"/>
+                        <outlet property="nameLabel" destination="nS8-vp-slA" id="FQ0-UO-Q4s"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
